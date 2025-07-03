@@ -25,7 +25,7 @@
 			>
 				<ArrowTurnDownRight className="size-3.5" />
 
-				<div class="line-clamp-1">
+				<div>
 					{followUp}
 				</div>
 			</div>

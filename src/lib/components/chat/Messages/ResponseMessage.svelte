@@ -1457,7 +1457,7 @@
 						/>
 					{/if}
 
-					{#if isLastMessage && message.done && !readOnly && (message?.followUps ?? []).length > 0}
+					{#if message.done && !readOnly && (message?.followUps ?? []).length > 0}
 						<div class="mt-2.5" in:fade={{ duration: 100 }}>
 							<FollowUps
 								followUps={message?.followUps}
